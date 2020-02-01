@@ -1,5 +1,5 @@
 
-## Why Web Security is important
+## Why Web Security is important :
 
 When data transfer happens through http over the internet, some one can easily decode the data and get all the content.
 So to build a secure transaction medium web security is essential. We can achieve web security by adding an SSL certificate which is provided by a Certificate Authority(CA)/
@@ -7,6 +7,8 @@ They look into the company details , verify and provide a certificate. The certi
 
 When a client interacts with the web server, during the handshake process the server sends one of the key(public key) back to the client.
 Client uses that key to encrypt the data and sends the data back to the server. The server holds another(private key) which is used to decode the data.
+
+When the data trasfer happens via https the data is normally encrypted and can't be decrypted by anyone except the server.
 
 The point which is very important to remember is that only private key can decrypt the data encrypted by the public key.
 
